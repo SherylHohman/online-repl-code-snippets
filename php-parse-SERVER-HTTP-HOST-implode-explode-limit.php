@@ -12,7 +12,6 @@
 	//combined subdomains (except www)
 	//wwwdot_or_empty
 
-<?php
 
 // ====================================================
 print(PHP_EOL . PHP_EOL . '==================================================' . PHP_EOL);
