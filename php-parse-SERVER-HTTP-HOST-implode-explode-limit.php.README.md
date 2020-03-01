@@ -1,3 +1,16 @@
+// Repl.it Address:   
+	// https://repl.it/@sherylhohman/php-parse-SERVER-HTTP-HOST-implode-explode-limit  
+// Title:  
+	// php_parse_HTTP_HOST-implode-explode_limit  
+// Description:  
+	//- Explode usage  
+	//- parse $_SERVER[HTTP_HOST]into:  
+	//top-level domain  
+	//secondary level domain   
+	//combined subdomains (except www)  
+	//wwwdot_or_empty  
+
+
 Example of how to parse $_SERVER['HTTP_HOST'] variable into parts useful for a master config file.  
 Also example on using implode (join), and explode (split) with it's optional `limit` parameter.
 
