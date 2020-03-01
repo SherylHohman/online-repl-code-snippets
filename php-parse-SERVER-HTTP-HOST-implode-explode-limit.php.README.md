@@ -1,7 +1,6 @@
 GitHub file: [php-parse-SERVER-HTTP-HOST-implode-explode-limit.php](https://github.com/SherylHohman/online-repl-code-snippets/blob/master/php-parse-SERVER-HTTP-HOST-implode-explode-limit.php)  
 
-Repl.it file: [php-parse-SERVER-HTTP-HOST-implode-explode-limit.php](https://repl.it/@sherylhohman/php-parse-SERVER-HTTP-HOST-implode-explode-limit)  
-Repl.it Title:  php_parse_HTTP_HOST-implode-explode_limit  
+Repl.it file: [php-parse-SERVER-HTTP-HOST-implode-explode-limit](https://repl.it/@sherylhohman/php-parse-SERVER-HTTP-HOST-implode-explode-limit)  
 Description:  
  - Explode usage  
  - parse $_SERVER[HTTP_HOST] into:  
