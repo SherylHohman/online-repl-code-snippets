@@ -2,8 +2,8 @@
 Some of the code snippets I have saved in online repls, like repl.it, codesandbox.com, etc
 
 
-### 200322
-## php emailer - test form data and resulting email  
+### 
+## 200322 php emailer - test form data and resulting email  
 file: php-emailer-test-form-data-and-resulting-email
 (should have .php extension, but I dunno how to edit the filename on github)
 
