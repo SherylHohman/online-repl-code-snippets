@@ -22,6 +22,10 @@ also how to add multiple spaces (indentation, which do not collapse)
 <body>
 
 <?php
+
+// https://www.w3.org/TR/css-text-3/#white-space-property
+// pre and < html-tag style='white-space:pre' >
+  
 // comment/uncomment *1* $tab definition to see how it works
   
 // not a true tab.a set number of spaces. similar to an indent. 
