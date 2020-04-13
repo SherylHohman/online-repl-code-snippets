@@ -1,6 +1,6 @@
 /*
 php emailer - test form data and resulting email
-file: php-emailer-test-form-data-and-resulting-email
+file: php-emailer-test-form-data-and-resulting-email.php
 (should have .php extension, but I dunno how to edit its name)
 
 repl-it has the most up-to-date version:
