@@ -5,6 +5,7 @@ file: 200413-php-tabs-in-html.php
 
 #### github url: (may not be up to date)  
 https://github.com/SherylHohman/online-repl-code-snippets/200413-php-tabs-in-html.php  
+https://github.com/SherylHohman/online-repl-code-snippets/blob/master/200413-php-tabs-in-html.php
 
 #### repl-it has the most up-to-date version:  
 https://repl.it/@sherylhohman/tabs-in-html  
@@ -21,6 +22,8 @@ also how to add multiple spaces (indentation, which do not collapse)
 <body>
 
 <?php
+// comment/uncomment *1* $tab definition to see how it works
+  
 // not a true tab.a set number of spaces. similar to an indent. 
 //$tab = '&nbsp;&nbsp;&nbsp;&nbsp;';  // 4 spaces
 //$tab = '&ensp;&ensp;&ensp;&ensp;';  // wider
