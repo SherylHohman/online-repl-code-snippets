@@ -1,6 +1,21 @@
 # online-repl-code-snippets  
 Some of the code snippets I have saved in online repls, like repl.it, codesandbox.com, etc  
 
+----
+###  200413 tabs in html  
+file: 200413-php-tabs-in-html.php  
+
+#### github url: (may not be up to date)  
+https://github.com/SherylHohman/online-repl-code-snippets/200413-php-tabs-in-html.php  
+
+#### repl-it has the most up-to-date version:  
+https://repl.it/@sherylhohman/tabs-in-html  
+
+#### description  
+experiment how to add tabs to html files  
+(hint: whitespace:pre or pre)  
+also how to add multiple spaces (indentation, which do not collapse)  
+
 ----  
 ### 200407 php array destructuring to named variables (var name == key)  
 file: php-array-destructuring-to-named-variables.php   
