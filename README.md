@@ -7,6 +7,8 @@ file: 200413-php-tabs-in-html.php
 
 #### github url: (may not be up to date)  
 https://github.com/SherylHohman/online-repl-code-snippets/200413-php-tabs-in-html.php  
+https://github.com/SherylHohman/online-repl-code-snippets/blob/master/200413-php-tabs-in-html.php
+
 
 #### repl-it has the most up-to-date version:  
 https://repl.it/@sherylhohman/tabs-in-html  
