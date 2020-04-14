@@ -37,15 +37,29 @@ echo $br;
 echo $br;
 ?>
 
-  
-<?php
 
-// https://www.w3.org/TR/css-text-3/#white-space-property
+<?php
 // pre and < html-tag style='white-space:pre' >
- 
+
 echo "<p> Wrapping <pre>\ttabs in pre\t</pre> interrupts the flow of text. </p>";
 echo "<p style='white-space:pre'> Setting tag style to \t `style='white-space:pre'`\t does not. </p>";
+
+//  Adding `style='white-space:pre'` to tags allows tabs to work!\r\n
+//  It also allows `\\t` and `\\r\\n` to work within that (p, h2, etc) tag as normal text, without HTML space-collapsing.
+
+//  https://stackoverflow.com/a/45266304/5411817
+//  https://stackoverflow.com/a/20423268/5411817
+//  https://stackoverflow.com/questions/20414504/how-do-i-replicate-a-t-tab-space-in-html
+//  https://www.w3.org/TR/css-text-3/#white-space-property
+
+echo '----';
+echo $br;
+echo $br;
+echo $br;
+?>
+
   
+<?php
 // ----
 // comment/uncomment *1* $tab definition to see how it works
   
