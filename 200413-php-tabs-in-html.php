@@ -1,26 +1,43 @@
-/*
-----
-###  200413 tabs in html  
-file: 200413-php-tabs-in-html.php  
-
-#### github url: (may not be up to date)  
-https://github.com/SherylHohman/online-repl-code-snippets/200413-php-tabs-in-html.php  
-https://github.com/SherylHohman/online-repl-code-snippets/blob/master/200413-php-tabs-in-html.php
-
-#### repl-it has the most up-to-date version:  
-https://repl.it/@sherylhohman/tabs-in-html  
-
-#### description  
-experiment how to add tabs to html files  
-(hint: whitespace:pre or pre)  
-also how to add multiple spaces (indentation, which do not collapse)  
-----
-*/
-
 <!DOCTYPE html>
 <html>
 <body>
 
+ <?php
+  // example of an html email message using tabs to align info fields 
+  $user['name']    = 'me';
+  $user['email']   = 'me@example.com';
+  $user['phone']   = '(555) 555-5555';
+  $user['message'] = "Hi!\t We like your product.\r\nUsing `style='white-space:pre'` allows tabs to work!\r\nIt also allows `\\t` and `\\r\\n` to work. Including newlines embedded in the message :-)"; //( (balance out parens for matching counts)
+  $custom_subject = 'Hello, ' . $user['name'];
+  $settings['message_intro'] = '';//'Test message.';
+
+  $br = '<br />';
+  $p  = '<p style="white-space:pre">';
+  $pp  = '</p>';
+  $message =  '<html><head><title>Email from Contact Form</title></head><body>' .
+              $p .
+              // info fields
+              "Name:    \t {$user['name']}"    . $br .
+              "Email:   \t {$user['email']}"   . $br .
+              "Subject: \t $custom_subject"    . $br .
+              "Phone:   \t {$user['phone']}"   . $br .
+              $pp .
+              // (Testing message intro)
+              $p .
+              "{$settings['message_intro']}"   . $br .
+              $pp . $p .
+              // message
+              "Message:\r\n{$user['message']}"             . $br .
+              $pp .
+              '</body></html>';
+echo $message;
+echo '----';
+echo $br;
+echo $br;
+echo $br;
+?>
+
+  
 <?php
 
 // https://www.w3.org/TR/css-text-3/#white-space-property
@@ -67,3 +84,22 @@ echo "<h2 style='white-space:pre'>$y\t$y</h2>";
 
 </body>
 </html>
+
+/*
+----
+###  200413 tabs in html  
+file: 200413-php-tabs-in-html.php  
+
+#### github url: (may not be up to date)  
+https://github.com/SherylHohman/online-repl-code-snippets/200413-php-tabs-in-html.php  
+https://github.com/SherylHohman/online-repl-code-snippets/blob/master/200413-php-tabs-in-html.php
+
+#### repl-it has the most up-to-date version:  
+https://repl.it/@sherylhohman/tabs-in-html  
+
+#### description  
+experiment how to add tabs to html files  
+(hint: whitespace:pre or pre)  
+also how to add multiple spaces (indentation, which do not collapse)  
+----
+*/
