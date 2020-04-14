@@ -17,9 +17,10 @@ https://repl.it/@sherylhohman/tabs-in-html
 experiment how to add tabs to html files  
 (hint: whitespace:pre or pre)  
 also how to add multiple spaces (indentation, which do not collapse)  
-// https://www.w3.org/TR/css-text-3/#white-space-property
-// pre and < html-tag style='white-space:pre' >
-// comment/uncomment *1* $tab definition to see how it works
+// https://www.w3.org/TR/css-text-3/#white-space-property  
+// pre and < html-tag style='white-space:pre' >  
+// added example of whitespace:pre in composing a contact form email with tabbed info.  
+// for test section, comment/uncomment *1* $tab definition to see how it works  
 
 
 ----  
