@@ -16,12 +16,16 @@ https://repl.it/@sherylhohman/tabs-in-html
 #### description  
 experiment how to add tabs to html files  
 (hint: whitespace:pre or pre)  
-also how to add multiple spaces (indentation, which do not collapse)  
-// https://www.w3.org/TR/css-text-3/#white-space-property  
 // pre and < html-tag style='white-space:pre' >  
 // added example of whitespace:pre in composing a contact form email with tabbed info.  
-// for test section, comment/uncomment *1* $tab definition to see how it works  
 
+also how to add multiple spaces (indentation, which do not collapse)  
+  //  Using `style='white-space:pre'` allows tabs to work!\r\nIt also allows `\\t` and `\\r\\n` to work  
+  //  https://stackoverflow.com/a/45266304/5411817  
+  //  https://stackoverflow.com/a/20423268/5411817  
+  //  https://stackoverflow.com/questions/20414504/how-do-i-replicate-a-t-tab-space-in-html  
+  //  https://www.w3.org/TR/css-text-3/#white-space-property  
+// for test section, comment/uncomment *1* $tab definition to see how it works  
 
 ----  
 ### 200407 php array destructuring to named variables (var name == key)  
