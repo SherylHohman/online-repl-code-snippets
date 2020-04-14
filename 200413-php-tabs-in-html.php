@@ -42,7 +42,11 @@ echo $br;
 
 // https://www.w3.org/TR/css-text-3/#white-space-property
 // pre and < html-tag style='white-space:pre' >
+ 
+echo "<p> Wrapping <pre>\ttabs in pre\t</pre> interrupts the flow of text. </p>";
+echo "<p style='white-space:pre'> Setting tag style to \t `style='white-space:pre'`\t does not. </p>";
   
+// ----
 // comment/uncomment *1* $tab definition to see how it works
   
 // not a true tab.a set number of spaces. similar to an indent. 
@@ -101,5 +105,11 @@ https://repl.it/@sherylhohman/tabs-in-html
 experiment how to add tabs to html files  
 (hint: whitespace:pre or pre)  
 also how to add multiple spaces (indentation, which do not collapse)  
+  //  Using `style='white-space:pre'` allows tabs to work!\r\nIt also allows `\\t` and `\\r\\n` to work
+  //  https://stackoverflow.com/a/45266304/5411817
+  //  https://stackoverflow.com/a/20423268/5411817
+  //  https://stackoverflow.com/questions/20414504/how-do-i-replicate-a-t-tab-space-in-html
+  //  https://www.w3.org/TR/css-text-3/#white-space-property
+
 ----
 */
